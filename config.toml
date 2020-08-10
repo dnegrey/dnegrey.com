@@ -1,29 +1,32 @@
 baseURL = "https://example.com"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
+title = "Website of Dan Negrey"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
 
 # Enable Disqus
-#disqusShortname = ""
+disqusShortname = "dnegrey-blog"
 
 # Google Analytics
-#googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-69162453-1"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
-title = "I'm Jane Doe"
-author = "Jane Doe"
-description = "Call me Jane"
-profilePicture = "images/profile.jpg"
+title = "Dan Negrey"
+author = "Dan Negrey"
+description = "Data Scientist"
+profilePicture = "images/profile.png"
 keywords = ""
 favicon = "favicons/"
 customCss = []
 customJs = []
 mainSections = ["post"]
 images = ["images/site-feature-image.png"]
+displayMode = "dark"
 
 ## Math settings
 [params.math]
@@ -33,23 +36,23 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 ## Social links
 [[params.socialIcons]]
 icon = "fa-linkedin"
-title = "Linkedin"
-url = "https://de.linkedin.com/"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/dnegrey/"
 
 [[params.socialIcons]]
 icon = "fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
+url = "https://github.com/dnegrey"
 
 [[params.socialIcons]]
-icon = "fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
+icon = "fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/negreydan"
 
 [[params.socialIcons]]
 icon = "fa-envelope"
 title = "e-mail"
-url = "mailto:mail@alexbilz.com"
+url = "mailto:dnegrey@gmail.com"
 
 ## Menu items
 
