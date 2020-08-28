@@ -1,0 +1,19 @@
+:root {
+    --pre-bg-color: #F9F9FD;
+    --pre-color: #292A2D;
+    --pre-border: 1px solid #CCCCCC;
+}
+
+html[data-theme='dark'] {
+    --pre-bg-color: #F9F9FD;
+    --pre-color: #292A2D;
+    --pre-border: 1px solid #292A2D;
+}
+
+pre {
+    background-color: var(--pre-bg-color);
+    color: var(--pre-color);
+    border: var(--pre-border);
+    border-radius: 2px;
+    font-size: 13px;
+}
