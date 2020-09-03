@@ -1,7 +1,6 @@
-baseURL = "https://dnegrey.github.io"
+baseURL = "https://dnegrey.com"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Dan Negrey"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
