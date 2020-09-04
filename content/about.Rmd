@@ -5,36 +5,3 @@ title: About
 Hello, world!
 
 *Let's try a little R-markdown, shall we?*
-
-```{r cool-plot, fig.cap='A cool plot.', warning=FALSE}
-library(plotly)
-plot_ly(data = iris, x = ~Sepal.Length, y = ~Petal.Length,
-               marker = list(size = 10,
-                             color = 'rgba(255, 182, 193, .9)',
-                             line = list(color = 'rgba(152, 0, 0, .8)',
-                                         width = 2)))
-```
-
-#### How about this map!
-
-```{r cool-map, fig.cap='A cool map.', warning=FALSE}
-library(leaflet)
-leaflet() %>%
-  addTiles() %>%
-  addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
-```
-
-#### Time series, anyone?!
-
-```{r cool-ts, fig.cap='A cool time series.', warning=FALSE}
-library(dygraphs)
-lungDeaths <- cbind(mdeaths, fdeaths)
-dygraph(lungDeaths)
-```
-
-#### Now for a table!
-
-```{r cool-table, fig.cap='A cool table.', warning=FALSE}
-library(reactable)
-reactable(iris)
-```
