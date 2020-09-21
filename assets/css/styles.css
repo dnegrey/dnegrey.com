@@ -22,3 +22,57 @@ code {
     color: #DF691A;
     font-size: 13px;
 }
+
+/* override leaflet overrides */
+.info {
+    padding: inherit !important;
+    font: inherit !important;
+    background: inherit !important;
+    box-shadow: inherit !important;
+    border-radius: inherit !important;
+}
+.legend {
+    line-height: inherit !important;
+    color: inherit !important;
+}
+.legend svg text {
+    fill: inherit !important;
+}
+.legend svg line {
+    stroke: inherit !important;
+}
+.legend i {
+    width: inherit !important;
+    height: inherit !important;
+    margin-right: inherit !important;
+    opacity: inherit !important;
+    display: inherit !important;
+    vertical-align: inherit !important;
+}
+/* re-allow leaflet overrides, prefaced with leaflet class */
+.leaflet .info {
+    padding: 6px 8px !important;
+    font: 14px/16px Arial, Helvetica, sans-serif !important;
+    background: white !important;
+    background: rgba(255,255,255,0.8) !important;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2) !important;
+    border-radius: 5px !important;
+}
+.leaflet .legend {
+    line-height: 18px !important;
+    color: #555 !important;
+}
+.leaflet .legend svg text {
+    fill: #555 !important;
+}
+.leaflet .legend svg line {
+    stroke: #555 !important;
+}
+.leaflet .legend i {
+    width: 18px !important;
+    height: 18px !important;
+    margin-right: 4px !important;
+    opacity: 0.7 !important;
+    display: inline-block !important;
+    vertical-align: top !important;
+}
