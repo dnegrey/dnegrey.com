@@ -76,3 +76,9 @@ code {
     display: inline-block !important;
     vertical-align: top !important;
 }
+
+/*** app specific ***/
+/* election 2000 */
+#map-creation .leaflet .legend i {
+    opacity: 0.8 !important;
+}

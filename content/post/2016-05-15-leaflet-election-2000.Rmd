@@ -164,7 +164,7 @@ pgn <- format(pgn, big.mark = ",")
 
 <div>
 <p style="float: left;">
-<img src="post/2016-05-15-leaflet-election-2000_files/bush.jpg" alt="George W. Bush">
+<img src="bush.jpg" alt="George W. Bush">
 </p>
 <ul style="list-style-type: none; margin-left: 170px; padding-left: 20px;">
 <li><b>George W. Bush</b></li>
@@ -176,7 +176,7 @@ pgn <- format(pgn, big.mark = ",")
 
 <div style="clear: left;">
 <p style="float: left;">
-<img src="post/2016-05-15-leaflet-election-2000_files/gore.jpg" alt="Al Gore">
+<img src="gore.jpg" alt="Al Gore">
 </p>
 <ul style="list-style-type: none; margin-left: 170px; padding-left: 20px;">
 <li><b>Al Gore</b></li>
