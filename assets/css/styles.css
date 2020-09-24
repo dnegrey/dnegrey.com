@@ -83,14 +83,12 @@ code {
     height: 150px;
     display: flex;
     margin-bottom: 15px;
-    border: 1px solid red;
 }
 .favorite-things-thing {
     width: 32%;
     margin: 1%;
     display: flex;
     align-items: stretch;
-    border: 1px solid white;
 }
 .favorite-things-thing p {
     margin: 0;

@@ -11,38 +11,67 @@ When not conversing about data science, you may find me opining about sports, vi
 #### A Few of My Favorite Things...
 
 <div class="favorite-things-row">
-<div class="favorite-things-thing">
 
+<div class="favorite-things-thing">
+<a href="https://www.starwars.com/" target=_blank>
+<img src="favorite/starwars.png" alt="Star Wars">
+</a>
+</div>
+
+<div class="favorite-things-thing">
+<a href="https://www.nba.com/cavaliers/" target=_blank>
+<img src="favorite/cavs.png" alt="Cleveland Cavaliers">
+</a>
+</div>
+
+<div class="favorite-things-thing">
+<a href="https://www.foofighters.com/" target=_blank>
+<img src="favorite/foofighters.png" alt="Foo Fighters">
+</a>
+</div>
+
+</div>
+
+<div class="favorite-things-row">
+
+<div class="favorite-things-thing">
+<a href="https://www.syfy.com/futurama" target=_blank>
+<img src="favorite/futurama.png" alt="Futurama">
+</a>
+</div>
+
+<div class="favorite-things-thing">
+<a href="https://www.zelda.com/" target=_blank>
+<img src="favorite/zelda.png" alt="The Legend of Zelda">
+</a>
+</div>
+
+<div class="favorite-things-thing">
+<a href="https://www.clevelandmonsters.com/" target=_blank>
+<img src="favorite/monsters.png" alt="Cleveland Monsters">
+</a>
+</div>
+
+</div>
+
+<div class="favorite-things-row">
+
+<div class="favorite-things-thing">
+<a href="https://www.marvel.com/characters/spider-man-peter-parker/in-comics" target=_blank>
+<img src="favorite/spiderman.png" alt="Spider-Man">
+</a>
+</div>
+
+<div class="favorite-things-thing">
 <a href="https://www.konami.com/games/castlevania/" target=_blank>
 <img src="favorite/castlevania.png" alt="Castlevania">
 </a>
 </div>
+
 <div class="favorite-things-thing">
-<img src="favorite/cavs.png" alt="Cleveland Cavaliers">
-</div>
-<div class="favorite-things-thing">
-<img src="favorite/foofighters.png" alt="Foo Fighters">
-</div>
-</div>
-<div class="favorite-things-row">
-<div class="favorite-things-thing">
-<img src="favorite/futurama.png" alt="Futurama">
-</div>
-<div class="favorite-things-thing">
-<img src="favorite/monsters.png" alt="Cleveland Monsters">
-</div>
-<div class="favorite-things-thing">
+<a href="https://en.wikipedia.org/wiki/Risk_(game)" target=_blank>
 <img src="favorite/risk.png" alt="Risk">
+</a>
 </div>
-</div>
-<div class="favorite-things-row">
-<div class="favorite-things-thing">
-<img src="favorite/spiderman.png" alt="Spider-Man">
-</div>
-<div class="favorite-things-thing">
-<img src="favorite/starwars.png" alt="Star Wars">
-</div>
-<div class="favorite-things-thing">
-<img src="favorite/zelda.png" alt="The Legend of Zelda">
-</div>
+
 </div>
