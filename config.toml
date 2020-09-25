@@ -70,6 +70,12 @@ url = "mailto:dnegrey@gmail.com"
   url = "/blog/"
 
   [[menu.main]]
+  name = "Projects"
+  weight = 200
+  identifier = "projects"
+  url = "/projects/"
+
+  [[menu.main]]
   name = "About"
   weight = 300
   identifier = "about"
