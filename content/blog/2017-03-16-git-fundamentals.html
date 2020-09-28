@@ -107,7 +107,7 @@ Changes to be committed:
 <p>When you are ready to officially record (“commit”) your staged changes, use the <code>git commit</code> command. Doing so will prompt you for a commit message (all commits get accompanied by a message), however, you can avoid the prompt and supply the message with the commit by using the <code>-m</code> option:</p>
 <pre class="bash"><code>git commit -m &quot;initial commit&quot;
 git status</code></pre>
-<pre><code>[master (root-commit) 122c14c] initial commit
+<pre><code>[master (root-commit) 5a4d3f6] initial commit
  1 file changed, 1 insertion(+)
  create mode 100644 README.md
 On branch master
@@ -118,13 +118,13 @@ nothing to commit, working tree clean</code></pre>
 <h4>Git Log</h4>
 <p>Use the <code>git log</code> command to print a summary of all the commits that you’ve made. This will include the full commit hash, author, date and message. For an abbreviated result, use the <code>--oneline</code> option which will only print out the commit message and the first 7 characters from the commit hash:</p>
 <pre class="bash"><code>git log</code></pre>
-<pre><code>commit 122c14c4ef6313eb41c60482575c2767fa5eef1e
+<pre><code>commit 5a4d3f634d0f5a351a4c0ec7469093b0c1503190
 Author: Dan Negrey &lt;dnegrey@gmail.com&gt;
-Date:   Tue Sep 8 15:52:01 2020 -0400
+Date:   Sun Sep 27 21:44:57 2020 -0400
 
     initial commit</code></pre>
 <pre class="bash"><code>git log --oneline</code></pre>
-<pre><code>122c14c initial commit</code></pre>
+<pre><code>5a4d3f6 initial commit</code></pre>
 </div>
 <div id="gitignore" class="section level4">
 <h4>.gitignore</h4>
@@ -134,7 +134,7 @@ Date:   Tue Sep 8 15:52:01 2020 -0400
 <pre><code>/home/dnegrey/fundamentals</code></pre>
 <pre class="bash"><code>ls -l</code></pre>
 <pre><code>total 4
--rw-r--r-- 1 dnegrey dnegrey 15 Sep  8 15:52 README.md</code></pre>
+-rw-r--r-- 1 dnegrey dnegrey 15 Sep 27 21:44 README.md</code></pre>
 <pre class="bash"><code>git status</code></pre>
 <pre><code>On branch master
 nothing to commit, working tree clean</code></pre>
@@ -144,10 +144,10 @@ nothing to commit, working tree clean</code></pre>
 done
 ls -l</code></pre>
 <pre><code>total 4
--rw-r--r-- 1 dnegrey dnegrey  0 Sep  8 15:52 data1.csv
--rw-r--r-- 1 dnegrey dnegrey  0 Sep  8 15:52 data2.csv
--rw-r--r-- 1 dnegrey dnegrey  0 Sep  8 15:52 data3.csv
--rw-r--r-- 1 dnegrey dnegrey 15 Sep  8 15:52 README.md</code></pre>
+-rw-r--r-- 1 dnegrey dnegrey  0 Sep 27 21:44 data1.csv
+-rw-r--r-- 1 dnegrey dnegrey  0 Sep 27 21:44 data2.csv
+-rw-r--r-- 1 dnegrey dnegrey  0 Sep 27 21:44 data3.csv
+-rw-r--r-- 1 dnegrey dnegrey 15 Sep 27 21:44 README.md</code></pre>
 <pre class="bash"><code>git status</code></pre>
 <pre><code>On branch master
 Untracked files:
@@ -170,26 +170,26 @@ Untracked files:
 nothing added to commit but untracked files present (use &quot;git add&quot; to track)</code></pre>
 <pre class="bash"><code>ls -la</code></pre>
 <pre><code>total 20
-drwxr-xr-x  3 dnegrey dnegrey 4096 Sep  8 15:52 .
-drwxr-xr-x 24 dnegrey dnegrey 4096 Sep  8 15:52 ..
--rw-r--r--  1 dnegrey dnegrey    0 Sep  8 15:52 data1.csv
--rw-r--r--  1 dnegrey dnegrey    0 Sep  8 15:52 data2.csv
--rw-r--r--  1 dnegrey dnegrey    0 Sep  8 15:52 data3.csv
-drwxr-xr-x  8 dnegrey dnegrey 4096 Sep  8 15:52 .git
--rw-r--r--  1 dnegrey dnegrey   10 Sep  8 15:52 .gitignore
--rw-r--r--  1 dnegrey dnegrey   15 Sep  8 15:52 README.md</code></pre>
+drwxr-xr-x  3 dnegrey dnegrey 4096 Sep 27 21:44 .
+drwxr-xr-x 25 dnegrey dnegrey 4096 Sep 27 21:44 ..
+-rw-r--r--  1 dnegrey dnegrey    0 Sep 27 21:44 data1.csv
+-rw-r--r--  1 dnegrey dnegrey    0 Sep 27 21:44 data2.csv
+-rw-r--r--  1 dnegrey dnegrey    0 Sep 27 21:44 data3.csv
+drwxr-xr-x  8 dnegrey dnegrey 4096 Sep 27 21:44 .git
+-rw-r--r--  1 dnegrey dnegrey   10 Sep 27 21:44 .gitignore
+-rw-r--r--  1 dnegrey dnegrey   15 Sep 27 21:44 README.md</code></pre>
 <p>Great! Git will now ignore any file in our repository that matches the pattern <code>data*.csv</code>. However, it recognizes that we have introduced a new file - namely, the <code>.gitignore</code> file. So we simply add <code>.gitignore</code> to the staging area and commit:</p>
 <pre class="bash"><code>git add .gitignore
 git commit -m &quot;added .gitignore&quot;
 git status</code></pre>
-<pre><code>[master e3de8ec] added .gitignore
+<pre><code>[master 0cbeaa3] added .gitignore
  1 file changed, 1 insertion(+)
  create mode 100644 .gitignore
 On branch master
 nothing to commit, working tree clean</code></pre>
 <pre class="bash"><code>git log --oneline</code></pre>
-<pre><code>e3de8ec added .gitignore
-122c14c initial commit</code></pre>
+<pre><code>0cbeaa3 added .gitignore
+5a4d3f6 initial commit</code></pre>
 </div>
 <div id="discard-changes" class="section level4">
 <h4>Discard Changes</h4>
@@ -199,13 +199,13 @@ cat file1</code></pre>
 <pre><code>Hello, world!</code></pre>
 <pre class="bash"><code>git add file1
 git commit -m &quot;added file1&quot;</code></pre>
-<pre><code>[master 7661a98] added file1
+<pre><code>[master 9044115] added file1
  1 file changed, 1 insertion(+)
  create mode 100644 file1</code></pre>
 <pre class="bash"><code>git log --oneline</code></pre>
-<pre><code>7661a98 added file1
-e3de8ec added .gitignore
-122c14c initial commit</code></pre>
+<pre><code>9044115 added file1
+0cbeaa3 added .gitignore
+5a4d3f6 initial commit</code></pre>
 <pre class="bash"><code>git status</code></pre>
 <pre><code>On branch master
 nothing to commit, working tree clean</code></pre>
@@ -236,15 +236,15 @@ nothing to commit, working tree clean</code></pre>
 <h4>Git Revert</h4>
 <p>In some cases, it will be necessary to undo an entire commit. To do so, use the <code>git revert</code> command and supply it with the SHA-1 hash of the commit that you would like to revert. Suppose we didn’t want a <code>.gitignore</code> file. We would want to revert our second commit:</p>
 <pre class="bash"><code>git log --oneline</code></pre>
-<pre><code>7661a98 added file1
-e3de8ec added .gitignore
-122c14c initial commit</code></pre>
+<pre><code>9044115 added file1
+0cbeaa3 added .gitignore
+5a4d3f6 initial commit</code></pre>
 <pre class="sourceCode bash">
-<code class="sourceCode bash"><span class="kw">git</span> revert e3de8ec</code>
+<code class="sourceCode bash"><span class="kw">git</span> revert 0cbeaa3</code>
 </pre>
 <pre><code>Removing .gitignore
-[master a367031] Revert &quot;added .gitignore&quot;
- Date: Tue Sep 8 15:52:01 2020 -0400
+[master 3d17787] Revert &quot;added .gitignore&quot;
+ Date: Sun Sep 27 21:44:58 2020 -0400
  1 file changed, 1 deletion(-)
  delete mode 100644 .gitignore</code></pre>
 <pre class="bash"><code>git status</code></pre>
@@ -257,48 +257,48 @@ Untracked files:
 
 nothing added to commit but untracked files present (use &quot;git add&quot; to track)</code></pre>
 <pre class="bash"><code>git log --oneline</code></pre>
-<pre><code>a367031 Revert &quot;added .gitignore&quot;
-7661a98 added file1
-e3de8ec added .gitignore
-122c14c initial commit</code></pre>
+<pre><code>3d17787 Revert &quot;added .gitignore&quot;
+9044115 added file1
+0cbeaa3 added .gitignore
+5a4d3f6 initial commit</code></pre>
 <pre class="bash"><code>ls -la</code></pre>
 <pre><code>total 20
-drwxr-xr-x  3 dnegrey dnegrey 4096 Sep  8 15:52 .
-drwxr-xr-x 24 dnegrey dnegrey 4096 Sep  8 15:52 ..
--rw-r--r--  1 dnegrey dnegrey    0 Sep  8 15:52 data1.csv
--rw-r--r--  1 dnegrey dnegrey    0 Sep  8 15:52 data2.csv
--rw-r--r--  1 dnegrey dnegrey    0 Sep  8 15:52 data3.csv
--rw-r--r--  1 dnegrey dnegrey   14 Sep  8 15:52 file1
-drwxr-xr-x  8 dnegrey dnegrey 4096 Sep  8 15:52 .git
--rw-r--r--  1 dnegrey dnegrey   15 Sep  8 15:52 README.md</code></pre>
+drwxr-xr-x  3 dnegrey dnegrey 4096 Sep 27 21:44 .
+drwxr-xr-x 25 dnegrey dnegrey 4096 Sep 27 21:44 ..
+-rw-r--r--  1 dnegrey dnegrey    0 Sep 27 21:44 data1.csv
+-rw-r--r--  1 dnegrey dnegrey    0 Sep 27 21:44 data2.csv
+-rw-r--r--  1 dnegrey dnegrey    0 Sep 27 21:44 data3.csv
+-rw-r--r--  1 dnegrey dnegrey   14 Sep 27 21:44 file1
+drwxr-xr-x  8 dnegrey dnegrey 4096 Sep 27 21:44 .git
+-rw-r--r--  1 dnegrey dnegrey   15 Sep 27 21:44 README.md</code></pre>
 <p>Recall that the point of Git is to track <strong><em>all</em></strong> of your changes! Notice that <code>git revert</code> did not simply roll back or remove the specified commit. Instead, it created a new commit reflective of the state we desired. In fact, by removing our <code>.gitignore</code> file, Git is now aware of the data files that it was previously ignoring! We can now <em>revert our revert</em> to get back our <code>.gitignore</code> file:</p>
 <pre class="sourceCode bash">
-<code class="sourceCode bash"><span class="kw">git</span> revert a367031</code>
+<code class="sourceCode bash"><span class="kw">git</span> revert 3d17787</code>
 </pre>
-<pre><code>[master d4839b2] Revert &quot;Revert &quot;added .gitignore&quot;&quot;
- Date: Tue Sep 8 15:52:01 2020 -0400
+<pre><code>[master c59949c] Revert &quot;Revert &quot;added .gitignore&quot;&quot;
+ Date: Sun Sep 27 21:44:58 2020 -0400
  1 file changed, 1 insertion(+)
  create mode 100644 .gitignore</code></pre>
 <pre class="bash"><code>git status</code></pre>
 <pre><code>On branch master
 nothing to commit, working tree clean</code></pre>
 <pre class="bash"><code>git log --oneline</code></pre>
-<pre><code>d4839b2 Revert &quot;Revert &quot;added .gitignore&quot;&quot;
-a367031 Revert &quot;added .gitignore&quot;
-7661a98 added file1
-e3de8ec added .gitignore
-122c14c initial commit</code></pre>
+<pre><code>c59949c Revert &quot;Revert &quot;added .gitignore&quot;&quot;
+3d17787 Revert &quot;added .gitignore&quot;
+9044115 added file1
+0cbeaa3 added .gitignore
+5a4d3f6 initial commit</code></pre>
 <pre class="bash"><code>ls -la</code></pre>
 <pre><code>total 24
-drwxr-xr-x  3 dnegrey dnegrey 4096 Sep  8 15:52 .
-drwxr-xr-x 24 dnegrey dnegrey 4096 Sep  8 15:52 ..
--rw-r--r--  1 dnegrey dnegrey    0 Sep  8 15:52 data1.csv
--rw-r--r--  1 dnegrey dnegrey    0 Sep  8 15:52 data2.csv
--rw-r--r--  1 dnegrey dnegrey    0 Sep  8 15:52 data3.csv
--rw-r--r--  1 dnegrey dnegrey   14 Sep  8 15:52 file1
-drwxr-xr-x  8 dnegrey dnegrey 4096 Sep  8 15:52 .git
--rw-r--r--  1 dnegrey dnegrey   10 Sep  8 15:52 .gitignore
--rw-r--r--  1 dnegrey dnegrey   15 Sep  8 15:52 README.md</code></pre>
+drwxr-xr-x  3 dnegrey dnegrey 4096 Sep 27 21:44 .
+drwxr-xr-x 25 dnegrey dnegrey 4096 Sep 27 21:44 ..
+-rw-r--r--  1 dnegrey dnegrey    0 Sep 27 21:44 data1.csv
+-rw-r--r--  1 dnegrey dnegrey    0 Sep 27 21:44 data2.csv
+-rw-r--r--  1 dnegrey dnegrey    0 Sep 27 21:44 data3.csv
+-rw-r--r--  1 dnegrey dnegrey   14 Sep 27 21:44 file1
+drwxr-xr-x  8 dnegrey dnegrey 4096 Sep 27 21:44 .git
+-rw-r--r--  1 dnegrey dnegrey   10 Sep 27 21:44 .gitignore
+-rw-r--r--  1 dnegrey dnegrey   15 Sep 27 21:44 README.md</code></pre>
 </div>
 <div id="closing-remarks" class="section level4">
 <h4>Closing Remarks</h4>
