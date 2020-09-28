@@ -34,14 +34,14 @@ I am an advocate for massive open online courses ([MOOCs](https://www.mooc.org/)
 
 **[SAS Global Certification](https://www.sas.com/en_us/certification.html)**
 
-Growth in the early part of my career was heavily dependent on learning the SAS programming language. Besides career advancement, however, I was very intrigued by making analytic processes more efficient - both in terms of reducing the time required for jobs to run as well as consolidating the code bases to be more concise. For each of these areas, mastering the SAS macro and SQL pass-through facilities was critical, and it started me down a path of analytical software engineering that has persisted throughout my career and is a key component of my professional approach.
+Growth in the early part of my career was heavily dependent on learning the SAS programming language. Besides career advancement, though, I was very intrigued by making analytic processes more efficient - both in terms of reducing the time required for jobs to run as well as consolidating the code bases to be more concise. For each of these areas, mastering the SAS macro and SQL pass-through facilities was critical, and it started me down a path of analytical software engineering that has persisted throughout my career and is a key component of my professional approach.
 
 * <a href="https://www.youracclaim.com/badges/45a7f69e-7463-4755-96d3-a16cae7a1b3b/public_url" target="_blank">SAS Certified Advanced Programmer for SAS 9</a>
 * <a href="https://www.youracclaim.com/badges/d5bd42b0-ffc5-48ec-b1be-b3e2fcabaee5/public_url" target="_blank">SAS Certified Base Programmer for SAS 9</a>
 
 **[MongoDB University](https://university.mongodb.com/)**
 
-Some of the most eye-opening moments in my career have come while first learning about paradigm shifting technology. Indeed this was the case when I was first introduced to NoSQL databases like [MongoDB](https://www.mongodb.com/) and [Neo4j](https://neo4j.com/). Each of these companies offers a free community version of their product and a wealth of free training opportunities.
+Some of the most eye-opening moments in my career have come while first learning about paradigm shifting technology. Indeed, this was the case when I was first introduced to NoSQL databases like [MongoDB](https://www.mongodb.com/) and [Neo4j](https://neo4j.com/). Each offers a community version of their product and a wealth of free training opportunities.
 
 * <a href="https://university.mongodb.com/courses/M101P/about" target="_blank">M101P: MongoDB for Developers</a>
 
