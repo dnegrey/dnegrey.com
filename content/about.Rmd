@@ -1,0 +1,94 @@
+---
+title: About
+editor_options: 
+  chunk_output_type: console
+---
+
+My name is Dan Negrey and I am a data scientist based in Cleveland, OH. My career has centered around marketing analytics but I am genuinely interested in all things data, especially when it involves the use of open-source technology. In particular, I love using [R](https://www.r-project.org/) with [Shiny](https://shiny.rstudio.com/) and [R Markdown](https://rmarkdown.rstudio.com/) to build powerful data tools, dashboards and reports. I studied mathematics at [Ohio University](https://www.ohio.edu/) where I earned a Master of Science degree in 2007.
+
+![Thoughts on technology](technology.png) \
+
+#### My approach
+
+Over the years I have developed a consistent approach to tackling data science problems, which centers around four key components and emphasizes reproducibility:
+
+1. **Getting data** (*querying an API or database, scraping a website, importing flat files, etc.*)
+2. **Cleaning data** (*scrubbing, keying, joining, filtering, etc.*)
+3. **Analyzing data** (*exploring, aggregating, modeling, visualizing, etc.*)
+4. **Publishing results** (*knitting a report, updating a dashboard, emailing a summary, etc.*)
+
+![R package workflow](package-workflow.png) \
+
+#### A few of my favorite things
+
+When not conversing about data science, you may find me opining about sports, video games, science fiction and popular culture. I am also a proud husband, father, animal lover and vegetarian.
+
+<div class="favorite-things-row">
+
+<div class="favorite-things-thing">
+<a href="https://www.starwars.com/" target=_blank>
+<img src="favorite/starwars.png" alt="Star Wars">
+</a>
+</div>
+
+<div class="favorite-things-thing">
+<a href="https://www.nba.com/cavaliers/" target=_blank>
+<img src="favorite/cavs.png" alt="Cleveland Cavaliers">
+</a>
+</div>
+
+<div class="favorite-things-thing">
+<a href="https://www.foofighters.com/" target=_blank>
+<img src="favorite/foofighters.png" alt="Foo Fighters">
+</a>
+</div>
+
+</div>
+
+<div class="favorite-things-row">
+
+<div class="favorite-things-thing">
+<a href="https://www.syfy.com/futurama" target=_blank>
+<img src="favorite/futurama.png" alt="Futurama">
+</a>
+</div>
+
+<div class="favorite-things-thing">
+<a href="https://www.zelda.com/" target=_blank>
+<img src="favorite/zelda.png" alt="The Legend of Zelda">
+</a>
+</div>
+
+<div class="favorite-things-thing">
+<a href="https://www.clevelandmonsters.com/" target=_blank>
+<img src="favorite/monsters.png" alt="Cleveland Monsters">
+</a>
+</div>
+
+</div>
+
+<div class="favorite-things-row">
+
+<div class="favorite-things-thing">
+<a href="https://www.marvel.com/characters/spider-man-peter-parker/in-comics" target=_blank>
+<img src="favorite/spiderman.png" alt="Spider-Man">
+</a>
+</div>
+
+<div class="favorite-things-thing">
+<a href="https://www.konami.com/games/castlevania/" target=_blank>
+<img src="favorite/castlevania.png" alt="Castlevania">
+</a>
+</div>
+
+<div class="favorite-things-thing">
+<a href="https://en.wikipedia.org/wiki/Risk_(game)" target=_blank>
+<img src="favorite/risk.png" alt="Risk">
+</a>
+</div>
+
+</div>
+
+#### Shout out
+
+This site was built with [blogdown](https://github.com/rstudio/blogdown) and [Hugo](https://gohugo.io/), and uses the [Anatole theme](https://themes.gohugo.io/anatole/). It is deployed using [GitHub Pages](https://pages.github.com/).
